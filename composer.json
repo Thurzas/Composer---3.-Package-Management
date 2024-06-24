@@ -1,0 +1,12 @@
+{
+    "name": "app/wildquest2",
+    "description": "wild package management with composer",
+    "require": {
+        "gipetto/cowsay": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Wildquest2\\": "src/"
+        }
+    }
+}
